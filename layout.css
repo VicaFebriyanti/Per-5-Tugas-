@@ -22,7 +22,10 @@
     padding: 14px 16px;
     text-decoration: none;
     }
-
+.navbar a:hover {
+    background-color: #ddd;
+    color: black; 
+    }
 .sidebar {  
     text-align: center;
     float: left;
@@ -36,7 +39,7 @@
     text-align: center;
     float: right;
     width: 73%;
-}
+    }
 .card {
     background-color: white;
     padding: 20px;
@@ -44,13 +47,13 @@
     height: 80px;
     }
 .row:after {
-        content: "";
-        display: table;
-        clear: both;
+    content: "";
+    display: table;
+    clear: both;
     }
 .footer {
-        padding: 20px;
-        text-align: center;
-        background: white;
-        margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    background: white;
+    margin-top: 20px;
     }
