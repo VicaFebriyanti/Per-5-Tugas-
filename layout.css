@@ -1,0 +1,56 @@
+.body {
+    font-family: Arial;
+    padding: 10px;
+    background: gainsboro;
+    }
+.h1{color: gray;}
+.h3{color: gray;}
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+    } 
+.navbar {
+    overflow: hidden;
+    background-color: gray;
+    }
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+.sidebar {  
+    text-align: center;
+    float: left;
+    width: 23%;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px; 
+    height: 220px;
+    }
+.content  {
+    text-align: center;
+    float: right;
+    width: 73%;
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px; 
+    height: 80px;
+    }
+.row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+.footer {
+        padding: 20px;
+        text-align: center;
+        background: white;
+        margin-top: 20px;
+    }
